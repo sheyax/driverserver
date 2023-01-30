@@ -1,0 +1,14 @@
+{
+  "name": "demo-server",
+  "version": "1.0.0",
+  "description": "Drivers trip logging",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js json-server --watch db.json --port 3003"
+  },
+  "dependencies": {
+    "json-server": "0.17.1"
+  },
+
+  "keywords": []
+}
